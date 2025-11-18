@@ -1,0 +1,33 @@
+{
+  "name": "motionbees",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@tailwindcss/postcss": "^4.1.16",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "intl": "^1.2.5",
+    "lucide-react": "^0.546.0",
+    "next-intl": "^4.4.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "shiki": "^3.15.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "^16.0.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4.1.16"
+  }
+}

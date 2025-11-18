@@ -1,0 +1,147 @@
+{
+  "header": {
+    "languageOptions": {
+      "en": "Anglais",
+      "es": "Espagnol",
+      "fr": "Français"
+    },
+    "nav": {
+      "getStarted": "Commencer",
+      "components": "Composants",
+      "updates": "Mises à jour",
+      "search": "Recherche"
+    }
+  },
+  "hero": {
+    "title": "Boutons animés pour vos prochains projets.",
+    "desc": "Découvrez notre collection de boutons animés, parfaits pour ajouter une touche dynamique à vos projets web. Faciles à intégrer et personnalisables, nos boutons sont conçus pour améliorer l'expérience utilisateur et rendre vos interfaces plus attrayantes.",
+    "cta": "Explorer les Boutons"
+  },
+  "features": {
+    "title": "Conçu pour la performance. Conçu pour la flexibilité.",
+    "desc": "Buttony UI vous donne les outils nécessaires pour créer de magnifiques boutons hautes performances. Chaque composant est soigneusement conçu pour être flexible, réutilisable et accessible."
+  },
+  "get-started": {
+    "welcome": {
+      "title": "Bienvenue dans l'interface utilisateur de Buttony",
+      "subtitle": "Une collection de boutons animés pour vos prochains projets",
+      "description": "Buttony UI est une collection de boutons animés parfaits pour ajouter une touche dynamique à vos projets Web. Faciles à intégrer et personnalisables, nos boutons sont conçus pour améliorer l’expérience utilisateur et rendre vos interfaces plus attractives."
+    },
+    "timeline": {
+      "title": "Journal des changements de Buttony UI",
+      "description": "Découvrez les dernières mises à jour et améliorations de Buttony UI",
+      "versions": {
+        "2024": {
+          "v1_0_0": {
+            "title": "Première Version",
+            "description": "La toute première version du site web. Une structure simple et minimale présentant le catalogue initial de boutons et une interaction utilisateur basique. À ce stade, il n’y avait pas de support multilingue, pas de démonstrations de code et une interactivité limitée. Cette version a servi de base pour les futures améliorations en matière de design, d’accessibilité et d’expérience utilisateur."
+          }
+        },
+        "2025": {
+          "v1_1_0": {
+            "title": "Refonte et Expansion Principale",
+            "description": "Une refonte complète de la page d’accueil et de l’expérience utilisateur. L’internationalisation (anglais, espagnol et français) a été intégrée, ainsi que des boutons originaux et tiers, avec de nouvelles interactions. L’interface a été réorganisée pour une meilleure structure, accessibilité et réactivité.",
+            "features": {
+              "tab1": "Boutons cliquables ajoutés",
+              "tab2": "Boutons hover ajoutés",
+              "tab3": "Boutons d'action ajoutés",
+              "tab4": "Internationalisation ajoutée (EN/ES/FR)",
+              "tab5": "Intégration de 'Looks' des principaux développeurs",
+              "tab6": "Mode Sombre et Clair implémenté",
+              "tab7": "Page d'accueil et interface UI améliorées",
+              "tab8": "Aperçus démo pour les interactions de boutons ajoutés",
+              "tab9": "À venir : nouvelles catégories de composants et améliorations visuelles"
+            }
+          }
+        }
+      }
+    }
+  },
+  "buttons": {
+    "action": "Action",
+    "animated": "Animé",
+    "default": "Par Défaut",
+    "hover": "Au Survol",
+    "loading": "Chargement",
+    "social": "Social"
+  },
+  "buttonsDescription": {
+    "thirdPartyWarning": "Ces boutons sont créés par des concepteurs tiers.",
+    "buttony": {
+      "glass": "Un bouton « glassmorphisme » translucide comportant un flou d'arrière-plan (backdrop-blur-md) et des calques semi-transparents blancs ou noirs selon le thème. Des bordures subtiles et une ombre douce renforcent sa sensation de profondeur. Idéal pour les interfaces modernes et épurées.",
+      "minimalist": "Un bouton épuré et visuellement simple axé sur la clarté et l’élégance. Il utilise des bordures subtiles et une ombre intérieure pour ajouter une douce profondeur sans encombrement visuel. Parfait pour les interfaces utilisateur élégantes et sobres.",
+      "simple": "Un bouton équilibré avec un arrière-plan semi-transparent, des bordures fines et des ombres intérieures claires. Il offre une définition visuelle claire avec un survol fluide et des effets actifs, ce qui le rend fonctionnel et adaptable aux thèmes clairs et sombres."
+    },
+    "ibelick": {
+      "scaleIn": "Un bouton réactif qui s’agrandit légèrement lors du clic (zoom avant). L’effet active:scale-110 offre une interaction rapide et fluide, améliorant la réactivité sans perturber la mise en page.",
+      "scaleOut": "Un bouton qui se rétrécit légèrement au clic, créant un effet de 'pression'. La transition active:scale-95 ajoute de la profondeur à l’interaction tout en gardant une sensation douce et maîtrisée.",
+      "slideLeft": "Une animation de texte à double couche où le texte visible glisse vers la gauche tandis qu’un duplicata entre par la droite. Produit une transition fluide et nette au survol.",
+      "slideUp": "Similaire à ButtonSlideLeft, mais avec une animation verticale. Le texte supérieur glisse vers le haut et disparaît pendant qu’une autre couche apparaît par le bas, créant un léger effet d’élévation.",
+      "button3D": "Un bouton au style 3D subtil créant un effet surélevé grâce à une ombre inférieure douce. Lorsqu’il est pressé, il s’aplatit légèrement pour imiter un clic physique. Idéal pour les interfaces minimalistes.",
+      "stretchUp": "Une variante inversée de ButtonStretchBelow. Lorsqu’il est pressé, il s’étire verticalement et se compresse horizontalement, s’élevant légèrement. Conçu pour des interactions plus expressives ou animées.",
+      "stretchBelow": "Un bouton dynamique qui s’étire horizontalement et se compresse verticalement lorsqu’il est pressé. La combinaison de active:scale-x-110, active:scale-y-90 et translate-y-1 crée un effet élastique idéal pour des interfaces ludiques.",
+      "hoverTransform": "Un bouton dynamique avec une animation diagonale de balayage lumineux. Au survol, une barre floue traverse le bouton en diagonale, créant un effet futuriste ou énergétique, idéal pour les actions principales.",
+      "hoverRing": "Un bouton minimaliste ajoutant un effet d’anneau et de lueur au survol grâce à hover:ring et ring-offset. L’animation douce du contour améliore la mise en évidence sans surcharger l’interface.",
+      "expandCenter": "L’inverse de ButtonCollapseCenter. Le cercle de superposition s’étend depuis le centre vers l’extérieur au survol, remplissant doucement l’arrière-plan. Apporte une animation d’expansion fluide et dynamique.",
+      "collapseCenter": "Un bouton avec une animation d’arrière-plan où un cercle de superposition se contracte vers le centre au survol. Crée un effet de fermeture propre qui met en valeur le texte. Parfait pour les interfaces minimalistes ou à effet glass.",
+      "expandLeft": "Un bouton avec une animation d’expansion de la gauche vers la droite. Un cercle de superposition entre par la gauche et s’agrandit pour couvrir toute la zone du bouton. Idéal pour des transitions directionnelles ou interactives.",
+      "expandRight": "Un bouton avec une animation d’expansion de la droite vers la gauche. Le cercle de superposition entre par la droite et s’élargit, créant un effet symétrique et fluide par rapport à ButtonExpandLeft."
+    },
+    "luxe": {
+      "default": "Un bouton équilibré et polyvalent avec des ombres douces et des transitions fluides. Convient à la plupart des interfaces et s’adapte facilement aux thèmes clair et sombre.",
+      "outline": "Un bouton à contour net avec un fond minimal. Idéal pour les actions secondaires ou neutres nécessitant une hiérarchie visuelle subtile.",
+      "shine": "Un bouton brillant avec une animation lumineuse en balayage continu. Apporte de l’énergie visuelle et une touche raffinée aux interfaces modernes.",
+      "animatedBorder": "Un bouton avec une bordure animée parcourant doucement ses contours. L’effet de mouvement renforce la sensation de qualité et de fluidité.",
+      "rotateBorder": "Un bouton avec une bordure en rotation utilisant un dégradé conique. Crée un cadre tournant futuriste autour du contenu du bouton.",
+      "glitchBrightness": "Un bouton avec animation de texte superposée et un balayage lumineux traversant la surface. Produit un effet moderne de type 'glitch', parfait pour les appels à l’action marquants.",
+      "magnetic": "Un bouton magnétique/ interactif qui suit légèrement le curseur avec une animation de type ressort lorsqu’il est activé. Offre un mouvement parallax subtil qui augmente la sensation de réactivité et d’engagement visuel."
+    }
+  },
+  "sections": {
+    "preview": {
+      "title": "Aperçu",
+      "tabDemo": "Démo"
+    },
+    "explanation": "Explication",
+    "code": "Code"
+  },
+  "sidebar": {
+    "title": "Boutons par Créateur",
+    "buttons": {
+      "buttony": {
+        "glass": "Verre",
+        "minimalist": "Minimaliste",
+        "simple": "Simple"
+      },
+      "ibelick": {
+        "scaleIn": "Échelle Entrante",
+        "scaleOut": "Échelle Sortante",
+        "slideLeft": "Glisser Gauche",
+        "slideUp": "Glisser Haut",
+        "hoverTransform": "Transformation au Survol",
+        "hoverRing": "Anneau au Survol",
+        "stretchUp": "Étirer Haut",
+        "stretchBelow": "Étirer Bas",
+        "buttonExpandCenter": "Bouton Expansion Centre",
+        "buttonCollapseCenter": "Bouton Réduction Centre",
+        "buttonExpandLeft": "Bouton Expansion Gauche",
+        "buttonExpandRight": "Bouton Expansion Droite",
+        "button3D": "Bouton 3D"
+      },
+      "luxe": {
+        "shine": "Brillance",
+        "animatedBorder": "Bordure Animée",
+        "rotateBorder": "Bordure Rotation",
+        "glitchBrightness": "Luminosité Glitch",
+        "magnetic": "Magnétique",
+        "outline": "Contour",
+        "default": "Par Défaut"
+      }
+    }
+  },
+  "404": {
+    "title": "Page Non Trouvée",
+    "message": "La page que vous recherchez n'existe pas.",
+    "backHome": "Retour à l'Accueil"
+  }
+}

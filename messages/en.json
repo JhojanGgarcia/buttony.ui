@@ -1,0 +1,147 @@
+{
+  "header": {
+    "languageOptions": {
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French"
+    },
+    "nav": {
+      "getStarted": "Get Started",
+      "components": "Components",
+      "updates": "Updates",
+      "search": "Search"
+    }
+  },
+  "hero": {
+    "title": "Animated Buttons for your next projects.",
+    "desc": "Discover our collection of animated buttons, perfect for adding a dynamic touch to your web projects. Easy to integrate and customizable, our buttons are designed to improve the user experience and make your interfaces more attractive.",
+    "cta": "Explore Buttons"
+  },
+  "features": {
+    "title": " Built for performance. Designed for flexibility.",
+    "desc": "Buttony UI gives you the tools to build beautiful, high-performing buttons. Each component is thoughtfully designed to be flexible, reusable, and accessible"
+  },
+  "get-started": {
+    "welcome": {
+      "title": "Welcome to Buttony UI",
+      "subtitle": "A collection of animated buttons for your next projects",
+      "description": "Buttony UI is a collection of animated buttons perfect for adding a dynamic touch to your web projects. Easy to integrate and customizable, our buttons are designed to improve the user experience and make your interfaces more attractive."
+    },
+    "timeline": {
+      "title": "Changelog from Buttony UI",
+      "description": "Discover the latest updates and improvements to Buttony UI",
+      "versions": {
+        "2024": {
+          "v1_0_0": {
+            "title": "Initial Release",
+            "description": "The very first release of the website. A simple and minimal structure that introduced the initial button catalog and basic user interaction. At this stage, the project had no multilingual support, no demo previews, and limited interactivity. It served as the foundation for future improvements in design, accessibility, and usability."
+          }
+        },
+        "2025": {
+          "v1_1_0": {
+            "title": "Major Redesign and Expansion",
+            "description": "A complete redesign of the landing page and user experience. Integrated internationalization (English, Spanish, and French), original and third-party button designs, and new interaction types. The UI was restructured for better organization, accessibility, and responsiveness.",
+            "features": {
+              "tab1": "Added click buttons",
+              "tab2": "Added hover buttons",
+              "tab3": "Added action buttons",
+              "tab4": "Added internationalization (EN/ES/FR)",
+              "tab5": "Integrated 'Looks' from major developers",
+              "tab6": "Implemented Dark and Light Mode",
+              "tab7": "Improved landing page and UI layout",
+              "tab8": "Added demo previews for button interactions",
+              "tab9": "Upcoming: new component categories and visual upgrades"
+            }
+          }
+        }
+      }
+    }
+  },
+  "buttons": {
+    "action": "Action",
+    "animated": "Animated",
+    "default": "Default",
+    "hover": "Hover",
+    "loading": "Loading",
+    "social": "Social"
+  },
+  "buttonsDescription": {
+    "thirdPartyWarning": "These buttons are created by third-party designers.",
+    "buttony": {
+      "glass": "A translucent “glassmorphism” button featuring background blur (backdrop-blur-md) and semi-transparent white or black layers depending on the theme. Subtle borders and a soft shadow enhance its sense of depth. Ideal for modern and clean interfaces.",
+      "minimalist": "A clean, visually simple button focused on clarity and elegance. It uses subtle borders and an inner shadow to add gentle depth without visual clutter. Perfect for sleek, understated user interfaces.",
+      "simple": "A balanced button with a semi-transparent background, fine borders, and light inner shadows. It offers clear visual definition with smooth hover and active effects, making it functional and adaptable for both light and dark themes."
+    },
+    "ibelick": {
+      "scaleIn": "A responsive button that slightly scales in (zooms in) when pressed. The active:scale-110 effect provides a quick, snappy interaction that enhances responsiveness without breaking layout flow.",
+      "scaleOut": "A button that scales out (shrinks) on click, creating a quick “press-down” effect. The active:scale-95 transition adds depth to interactions while keeping a smooth and controlled feel.",
+      "slideLeft": "A dual-layer text animation where the visible text slides out to the left while a duplicate slides in from the right. Produces a clean, fluid motion transition on hover.",
+      "slideUp": "Similar to ButtonSlideLeft, but vertically animated. The top text slides up and out while the next layer slides in from below, achieving a subtle “lift” motion.",
+      "button3D": "A subtle 3D-style button that creates a raised appearance using a soft bottom shadow. On press, it flattens slightly to mimic a physical button click. Ideal for adding tactile feedback in minimalist UIs.",
+      "stretchUp": "A mirrored variant of ButtonStretchBelow. On press, it stretches vertically and compresses horizontally, slightly lifting upward. Designed for more expressive or animated button interactions.",
+      "stretchBelow": "A dynamic button that stretches horizontally and compresses vertically on press. The active:scale-x-110 active:scale-y-90 and translate-y-1 combo creates a rubber-band-like motion for playful UIs.",
+      "hoverTransform": "A dynamic button with a skewed light sweep animation. On hover, a blurred accent bar glides across the button diagonally, giving a futuristic or “energy” effect suitable for hero actions.",
+      "hoverRing": "A minimal button that adds a ring and glow effect on hover using hover:ring and ring-offset. The soft outline animation enhances focus and accessibility without visual overload.",
+      "expandCenter": "The inverse of ButtonCollapseCenter. The circular overlay expands from the center outward on hover, smoothly filling the background area. Adds a dynamic focal burst animation.",
+      "collapseCenter": "A background animation button where a circular overlay collapses toward the center on hover. Creates a clean “closing” effect that emphasizes focus on the text. Perfect for minimal or glass-like UIs.",
+      "expandLeft": "A left-to-right expanding animation button. A circular overlay slides in from the left, filling the button area as it scales up. Ideal for directional or interactive UI transitions.",
+      "expandRight": "A right-to-left expanding animation button. The background overlay enters from the right and scales up, creating a smooth, mirrored effect of ButtonExpandLeft."
+    },
+    "luxe": {
+      "default": "A balanced, versatile button with soft shadows and smooth transitions. Suitable for most interfaces, it adapts easily to light and dark themes.",
+      "outline": "A clean outlined button with minimal background fill. Great for secondary or neutral actions that require subtle visual hierarchy.",
+      "shine": "A glossy button with a continuous light sweep animation. Adds visual energy and a polished touch to modern UIs.",
+      "animatedBorder": "A bordered button featuring a subtle animated border loop. The motion path softly travels around the edges, enhancing the premium feel.",
+      "rotateBorder": "A button with a rotating conic gradient border. Creates a futuristic spinning frame around the button’s content for dynamic interfaces.",
+      "glitchBrightness": "A button with a layered text animation and a passing brightness sweep. Produces a modern, glitch-like glow effect for standout call-to-actions.",
+      "magnetic": "A magnetic/interactive button that slightly follows the cursor using a spring animation when enabled. Provides a subtle parallax-like motion that increases perceived responsiveness and attention."
+    }
+  },
+  "sections": {
+    "preview": {
+      "title": "Preview",
+      "tabDemo": "Demo"
+    },
+    "explanation": "Explanation",
+    "code": "Code"
+  },
+  "sidebar": {
+    "title": "Buttons by Creator",
+    "buttons": {
+      "buttony": {
+        "glass": "Glass",
+        "minimalist": "Minimalist",
+        "simple": "Simple"
+      },
+      "ibelick": {
+        "scaleIn": "Scale In",
+        "scaleOut": "Scale Out",
+        "slideLeft": "Slide Left",
+        "slideUp": "Slide Up",
+        "hoverTransform": "Hover Transform",
+        "hoverRing": "Hover Ring",
+        "stretchUp": "Stretch Up",
+        "stretchBelow": "Stretch Below",
+        "buttonExpandCenter": "Button Expand Center",
+        "buttonCollapseCenter": "Button Collapse Center",
+        "buttonExpandLeft": "Button Expand Left",
+        "buttonExpandRight": "Button Expand Right",
+        "button3D": "Button 3D"
+      },
+      "luxe": {
+        "shine": "Shine",
+        "animatedBorder": "Animated Border",
+        "rotateBorder": "Rotate Border",
+        "glitchBrightness": "Glitch Brightness",
+        "magnetic": "Magnetic",
+        "outline": "Outline",
+        "default": "Default"
+      }
+    }
+  },
+  "404": {
+    "title": "Page Not Found",
+    "message": "The page you're looking for doesn't exist.",
+    "backHome": "Go Back Home"
+  }
+}

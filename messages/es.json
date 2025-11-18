@@ -1,0 +1,147 @@
+{
+  "header": {
+    "languageOptions": {
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés"
+    },
+    "nav": {
+      "getStarted": "Empezar",
+      "components": "Componentes",
+      "updates": "Actualizaciones",
+      "search": "Buscar"
+    }
+  },
+  "hero": {
+    "title": "Botones animados para tus próximos proyectos.",
+    "desc": "Descubre nuestra colección de botones animados, perfectos para añadir un toque dinámico a tus proyectos web. Fáciles de integrar y personalizables, nuestros botones están diseñados para mejorar la experiencia del usuario y hacer que sus interfaces sean más atractivas.",
+    "cta": "Explorar Botones"
+  },
+  "features": {
+    "title": "Diseñado para el rendimiento. Diseñado para brindar flexibilidad.",
+    "desc": "Buttony UI le brinda las herramientas para crear botones hermosos y de alto rendimiento. Cada componente está cuidadosamente diseñado para ser flexible, reutilizable y accesible."
+  },
+  "get-started": {
+    "welcome": {
+      "title": "Bienvenido a la interfaz de usuario de Buttony",
+      "subtitle": "Una colección de botones animados para tus próximos proyectos",
+      "description": "Buttony UI es una colección de botones animados perfectos para agregar un toque dinámico a sus proyectos web. Fáciles de integrar y personalizables, nuestros botones están diseñados para mejorar la experiencia del usuario y hacer que sus interfaces sean más atractivas."
+    },
+    "timeline": {
+      "title": "Registro de cambios de Buttony UI",
+      "description": "Descubre las últimas actualizaciones y mejoras de Buttony UI",
+      "versions": {
+        "2024": {
+          "v1_0_0": {
+            "title": "Lanzamiento Inicial",
+            "description": "El primer lanzamiento del sitio web. Una estructura simple y minimalista que presentó el catálogo inicial de botones y la interacción básica con el usuario. En esta etapa no había soporte multilingüe, ni demostraciones de código, y la interactividad era limitada. Sirvió como base para futuras mejoras en diseño, accesibilidad y usabilidad."
+          }
+        },
+        "2025": {
+          "v1_1_0": {
+            "title": "Rediseño y Expansión Principal",
+            "description": "Un rediseño completo de la página principal y de la experiencia del usuario. Se integró la internacionalización (inglés, español y francés), se añadieron botones propios y de otros desarrolladores, y se mejoró la interactividad. La interfaz se reorganizó para ofrecer una mejor estructura, accesibilidad y rendimiento.",
+            "features": {
+              "tab1": "Botones de clic añadidos",
+              "tab2": "Botones hover añadidos",
+              "tab3": "Botones de acción añadidos",
+              "tab4": "Internacionalización añadida (EN/ES/FR)",
+              "tab5": "Integrados 'Looks' de desarrolladores principales",
+              "tab6": "Modo Oscuro y Claro implementado",
+              "tab7": "Página de inicio y diseño UI mejorados",
+              "tab8": "Vistas previas demo para interacciones de botones añadidas",
+              "tab9": "Próximamente: nuevas categorías de componentes y mejoras visuales"
+            }
+          }
+        }
+      }
+    }
+  },
+  "buttons": {
+    "action": "Acción",
+    "animated": "Animado",
+    "default": "Predeterminado",
+    "hover": "Al Pasar",
+    "loading": "Cargando",
+    "social": "Social"
+  },
+  "buttonsDescription": {
+    "thirdPartyWarning": "Estos botones son creados por diseñadores externos.",
+    "buttony": {
+      "glass": "Un botón translúcido de “morfismo de vidrio” que presenta un fondo borroso (backdrop-blur-md) y capas semitransparentes blancas o negras según el tema. Los bordes sutiles y una sombra suave realzan su sensación de profundidad. Ideal para interfaces modernas y limpias.",
+      "minimalist": "Un botón limpio y visualmente simple centrado en la claridad y la elegancia. Utiliza bordes sutiles y una sombra interior para agregar una profundidad suave sin desorden visual. Perfecto para interfaces de usuario elegantes y discretas.",
+      "simple": "Un botón equilibrado con un fondo semitransparente, bordes finos y sombras interiores claras. Ofrece una definición visual clara con efectos activos y de desplazamiento suave, lo que lo hace funcional y adaptable tanto para temas claros como oscuros."
+    },
+    "ibelick": {
+      "scaleIn": "Un botón responsivo que se amplía ligeramente al presionarlo (zoom in). El efecto active:scale-110 ofrece una interacción rápida y fluida que mejora la sensación de respuesta sin afectar el diseño.",
+      "scaleOut": "Un botón que se contrae ligeramente al hacer clic, creando un efecto rápido de 'presión'. La transición active:scale-95 aporta profundidad a la interacción manteniendo una sensación suave y controlada.",
+      "slideLeft": "Una animación de texto en doble capa donde el texto visible se desliza hacia la izquierda mientras un duplicado entra desde la derecha. Produce una transición fluida y limpia al pasar el cursor.",
+      "slideUp": "Similar a ButtonSlideLeft, pero con animación vertical. El texto superior se desliza hacia arriba y sale, mientras la siguiente capa entra desde abajo, logrando un sutil efecto de elevación.",
+      "button3D": "Un botón con estilo 3D sutil que genera una apariencia elevada mediante una sombra inferior suave. Al presionarlo, se aplana ligeramente para simular la sensación de un clic físico. Ideal para interfaces minimalistas.",
+      "stretchUp": "Una variante inversa de ButtonStretchBelow. Al presionarlo, se estira verticalmente y se comprime horizontalmente, elevándose levemente. Diseñado para interacciones más expresivas o animadas.",
+      "stretchBelow": "Un botón dinámico que se estira horizontalmente y se comprime verticalmente al presionarlo. La combinación de active:scale-x-110, active:scale-y-90 y translate-y-1 crea un movimiento elástico ideal para UIs más divertidas.",
+      "hoverTransform": "Un botón dinámico con una animación diagonal de barrido luminoso. Al pasar el cursor, una barra difuminada se desliza en diagonal sobre el botón, generando un efecto futurista o de energía, ideal para acciones destacadas.",
+      "hoverRing": "Un botón minimalista que añade un efecto de anillo y brillo al pasar el cursor usando hover:ring y ring-offset. La animación del contorno suave mejora el enfoque visual sin sobrecargar la interfaz.",
+      "expandCenter": "La versión inversa de ButtonCollapseCenter. La superposición circular se expande desde el centro hacia afuera al pasar el cursor, llenando suavemente el fondo. Añade una animación dinámica de expansión focal.",
+      "collapseCenter": "Un botón con animación de fondo donde una superposición circular colapsa hacia el centro al pasar el cursor. Crea un efecto limpio de cierre que centra la atención en el texto. Perfecto para interfaces minimalistas o con efecto glass.",
+      "expandLeft": "Un botón con animación expansiva de izquierda a derecha. Una superposición circular entra desde la izquierda y se amplía hasta cubrir el área del botón. Ideal para transiciones direccionales o interactivas.",
+      "expandRight": "Un botón con animación expansiva de derecha a izquierda. La superposición entra desde el lado derecho y se expande, creando un efecto simétrico y fluido respecto a ButtonExpandLeft."
+    },
+    "luxe": {
+      "default": "Un botón equilibrado y versátil con sombras suaves y transiciones fluidas. Adecuado para la mayoría de interfaces, se adapta fácilmente a temas claros y oscuros.",
+      "outline": "Un botón delineado limpio, con relleno mínimo. Ideal para acciones secundarias o neutras que requieren una jerarquía visual sutil.",
+      "shine": "Un botón brillante con una animación de barrido luminoso continuo. Aporta energía visual y un toque pulido a interfaces modernas.",
+      "animatedBorder": "Un botón con borde animado de recorrido suave. El trazo se desplaza alrededor del borde, aportando un acabado elegante y premium.",
+      "rotateBorder": "Un botón con borde giratorio basado en un degradado cónico. Crea un marco en movimiento que rodea el contenido, ideal para interfaces dinámicas o futuristas.",
+      "glitchBrightness": "Un botón con animación de texto en capas y un destello de brillo que lo cruza. Genera un efecto moderno tipo 'glitch', ideal para llamadas a la acción destacadas.",
+      "magnetic": "Un botón magnético/ interactivo que sigue ligeramente el cursor usando una animación tipo spring cuando está habilitado. Proporciona un sutil movimiento parallax que aumenta la sensación de respuesta y atractivo visual."
+    }
+  },
+  "sections": {
+    "preview": {
+      "title": "Vista Previa",
+      "tabDemo": "Demostración"
+    },
+    "explanation": "Explicación",
+    "code": "Código"
+  },
+  "sidebar": {
+    "title": "Botones por Creador",
+    "buttons": {
+      "buttony": {
+        "glass": "Cristal",
+        "minimalist": "Minimalista",
+        "simple": "Simple"
+      },
+      "ibelick": {
+        "scaleIn": "Escalar Adentro",
+        "scaleOut": "Escalar Afuera",
+        "slideLeft": "Deslizar Izquierda",
+        "slideUp": "Deslizar Arriba",
+        "hoverTransform": "Transformación al Pasar",
+        "hoverRing": "Anillo al Pasar",
+        "stretchUp": "Estirar Arriba",
+        "stretchBelow": "Estirar Abajo",
+        "buttonExpandCenter": "Botón Expandir Centro",
+        "buttonCollapseCenter": "Botón Colapsar Centro",
+        "buttonExpandLeft": "Botón Expandir Izquierda",
+        "buttonExpandRight": "Botón Expandir Derecha",
+        "button3D": "Botón 3D"
+      },
+      "luxe": {
+        "shine": "Brillo",
+        "animatedBorder": "Borde Animado",
+        "rotateBorder": "Borde Giratorio",
+        "glitchBrightness": "Brillo Glitch",
+        "magnetic": "Magnético",
+        "outline": "Contorno",
+        "default": "Predeterminado"
+      }
+    }
+  },
+  "404": {
+    "title": "Página No Encontrada",
+    "message": "La página que buscas no existe.",
+    "backHome": "Volver al Inicio"
+  }
+}

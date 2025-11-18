@@ -1,0 +1,24 @@
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100dvh;
+
+  /*   
+  mask-image: url("/lock.svg");
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: 50px;
+  animation: rocket-reveal 3s forwards ease-in-out;
+  -webkit-animation: rocket-reveal 3s forwards ease-in-out; */
+}
+
+/* @keyframes rocket-reveal {
+  0% {
+    mask-size: 50px;
+  }
+
+  100% {
+    mask-size: 1000vh;
+  }
+} */
