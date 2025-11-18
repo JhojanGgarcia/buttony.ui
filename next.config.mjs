@@ -2,35 +2,23 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  swcMinify: true,
-  compress: true,
-
-  productionBrowserSourceMaps: false,
-
-  webpack: (config, { isServer, dev }) => {
-    if (!dev && !isServer) {
-      config.optimization = {
-        ...config.optimization,
-        usedExports: true,
-        sideEffects: false,
-      };
-    }
-
-    return config;
+  experimental: {
+    optimizeCss: false,
   },
+
+  compress: true,
+  productionBrowserSourceMaps: false,
 
   images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "avatars.githubusercontent.com",
-        port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "assets.aceternity.com",
-        port: "",
         pathname: "/**",
       },
     ],
@@ -73,10 +61,6 @@ const nextConfig = {
     locales: ["en", "es", "fr"],
     defaultLocale: "en",
     localeDetection: false,
-  },
-
-  turbopack: {
-    root: process.cwd(),
   },
 };
 
