@@ -15,7 +15,7 @@ export default function Home() {
         <title>Buttony</title>
         <meta
           name="description"
-          content="Discover the wonders of space with Zerion. Explore agencies, missions, and the future of space travel."
+          content="Discover our collection of animated buttons, perfect for adding a dynamic touch to your web projects"
         />
       </Head>
       <BasePage>
