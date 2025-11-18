@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { Geist, Lobster } from "next/font/google";
+import { Geist } from "next/font/google";
 import styles from "@/styles/background.module.css";
 import Header from "@/components/layout/header";
 
@@ -15,17 +15,11 @@ const GeistFont = Geist({
   display: "swap",
 });
 
-const LobsterFont = Lobster({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-lobster",
-  display: "swap",
-});
 
 export default function PageLayout({ children }) {
   return (
     <div
-      className={`${GeistFont.className} ${LobsterFont.variable} ${Varien.variable} ${styles.background} relative flex h-full w-full flex-col items-center justify-center overflow-x-hidden`}
+      className={`${GeistFont.className} ${Varien.variable} ${styles.background} relative flex h-full w-full flex-col items-center justify-center overflow-x-hidden`}
     >
       <Header />
       {children}
